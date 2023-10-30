@@ -28,7 +28,7 @@
     debug 
 */
 
-.debug, .hader-container{
+.header-container-up{
     background-color: rgb(208, 243, 255);
     min-height: 50px;
     display: flex;
@@ -58,4 +58,18 @@
     width: 25%;
     display: flex;
     justify-content: flex-end;
+}
+
+.header-container-bottom{
+    background-color: blue;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-box{
+    background-color: pink;
+    min-height: 320px;
+    width: 60%;
 }
