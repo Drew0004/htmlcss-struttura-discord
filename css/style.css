@@ -11,6 +11,9 @@
 /* 
     general 
 */
+.border, .orangebar, .logo, .link, .login{
+    border: 1px dashed black;
+}
 
 /* 
     main 
@@ -36,9 +39,23 @@
 .orangebar{
     background-color: orange;
     display: flex;
-    border: 1px dashed black;
     width: 75%;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+}
+
+.logo{
+    width: 25%;
+}
+
+.link{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
 }
