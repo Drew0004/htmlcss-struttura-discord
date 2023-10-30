@@ -22,6 +22,7 @@
 .container{
     margin: 0 auto;
     max-width: 1200px;
+    width: 100%;
 }
 
 /* 
@@ -39,7 +40,7 @@
 .orangebar{
     background-color: orange;
     display: flex;
-    width: 75%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -68,8 +69,8 @@
     align-items: center;
 }
 
-.pink-box{
-    background-color: pink;
+.fuchsia-box{
+    background-color: fuchsia;
     min-height: 320px;
     width: 60%;
 }
