@@ -11,7 +11,7 @@
 /* 
     general 
 */
-.border, .orangebar, .logo, .link, .login{
+.border, .orangebar, .logo, .link, .login, .fuchsia-box{
     border: 1px dashed black;
 }
 
@@ -40,7 +40,6 @@
 .orangebar{
     background-color: orange;
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -73,4 +72,35 @@
     background-color: fuchsia;
     min-height: 320px;
     width: 60%;
+}
+
+.cyan-box{
+    background-color: rgb(0, 149, 255);
+    min-height: 320px;
+    width: 70%;
+}
+
+.pink-box{
+    background-color: pink;
+    min-height: 320px;
+    width: 30%;
+}
+
+.main-flex{
+    display: flex;
+    margin: 30px 0;
+}
+
+.main-container-2{
+    background-color: lightgray;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-box{
+    background-color: green;
+    min-height: 700px;
+    width: 100%;
 }
